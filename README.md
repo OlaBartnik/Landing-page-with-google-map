@@ -13,4 +13,4 @@ JS practice - google map creating and customizing.
 ## Status
 RWD will be updated soon.
 
-![layout](layout readme.png)
+![layout](layout_readme.png)
