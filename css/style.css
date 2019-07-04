@@ -1,0 +1,301 @@
+* {
+    box-sizing: border-box;
+}
+
+/*style ogolne */
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+
+.row .col {
+    flex-grow: 1;
+    margin: 0 10px;
+}
+
+.btn {
+    display: block;
+    margin: 30px auto 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #ec548a;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 15px 15px;
+    transition: 0.3s background;
+
+}
+
+.btn:hover {
+    background: #ec2077;
+}
+
+
+.banner__title {
+    font-family: 'Princess Sofia', cursive;
+    font-size: 120px;
+    padding-bottom: 60px;
+
+}
+
+.banner__text {
+    max-width: 700px;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 100;
+    text-align: center;
+    opacity: 0.8;
+}
+
+/* sekcja hero i header*/
+.hero {
+    position: relative;
+    height: 100vh;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 60px;
+
+}
+
+.header .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header__logo img {
+    width: 80%;
+}
+
+.header__nav {
+}
+
+.header__nav__list {
+    display: flex;
+}
+
+.header__nav__list a {
+    text-decoration: none;
+    padding: 20px;
+    color: #A7ACAF;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s color;
+}
+
+.header__nav__list a:hover {
+    color: #ec2077;
+}
+
+.hero .banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../images/main-header-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-grow: 1;
+
+
+}
+
+
+.banner__button {
+    margin-top: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+}
+
+.banner__button a {
+    display: block;
+    font-size: 16px;
+    padding: 25px 25px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.banner__arrow .addon {
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+}
+
+.banner__arrow .arrow {
+    position: absolute;
+    height: 20px;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/*section1*/
+.box {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box .container {
+
+}
+
+.box__img__cnt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box__img {
+    max-width: 50%;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.box__title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.box__text {
+    text-align: center;
+    color: #999;
+    line-height: 1.2em;
+}
+
+/*section 2*/
+.section__secondary .banner {
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url("../images/paralax-bg.jpg");
+    background-size: cover;
+    background-position: left top 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    flex-grow: 1;
+}
+
+.section__secondary .banner__title {
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.section__secondary .box__img {
+    max-width: 80%;
+    border-radius: 0;
+    margin-top: 30px;
+}
+
+.section__secondary .row .col {
+    flex-grow: 1;
+    margin: 0 3px;
+}
+
+/*seckja contact*/
+
+.contact .banner {
+    height: 300px;
+    background-color: #ec548a;
+    overflow: hidden;
+}
+
+.contact_title {
+    color: #fff;
+    text-align: center;
+    margin: 80px auto 50px;
+    font-size: 28px;
+}
+
+.contact .form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.form input {
+    font-size: 16px;
+    width: 320px;
+    height: 60px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form button {
+    font-size: 16px;
+    width: 320px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #ec548a;
+    color: #fff;
+    border: 1px solid white;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    /*filter: grayscale(100%);*/
+}
+
+/*footer*/
+
+.footer {
+    background-color: #333;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.footer__logo {
+    margin-bottom: 40px;
+}
+
+.footer__nav__list li {
+    padding: 5px 0 5px;
+}
+
+.footer__nav__list a {
+    text-decoration: none;
+    color: #bbb;
+}
+
+.footer__copyright {
+    color: #666;
+}
+
+.col__copy {
+    flex-grow: 3;
+    text-align: right;
+}
+
