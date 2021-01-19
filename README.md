@@ -1,6 +1,6 @@
 # Landing page with google map
 
-Landing page created with HTML, CSS, JS. 
+Landing page created with HTML, CSS, JS.
 
 JS practice - google map creating and customizing.
 
